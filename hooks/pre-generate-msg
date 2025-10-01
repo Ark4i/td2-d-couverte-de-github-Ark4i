@@ -1,0 +1,3 @@
+if [ -f "$1" ]; then
+    sed -i '1s/^/TD2 - Rendu /' "$1"
+fi

@@ -1,0 +1,5 @@
+
+if [ ! -s RENDU.md ]; then
+  echo "ERREUR : Le fichier RENDU.md est vide, commit annulé."
+  exit 1
+fi
